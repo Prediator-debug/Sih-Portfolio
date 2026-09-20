@@ -31,7 +31,7 @@ export default function Layout() {
       </main>
 
       {/* Documentation CTA Section */}
-      <section className="bg-blue-900 dark:bg-[#111827] py-16 sm:py-20 md:py-24 transition-colors duration-200">
+      <section className="bg-[#2D6A4F] dark:bg-[#111827] py-16 sm:py-20 md:py-24 transition-colors duration-200">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-white tracking-tight mb-4 sm:mb-6">
             Read the full technical documentation
@@ -44,7 +44,7 @@ export default function Layout() {
           </p>
           <Link
             to="/documents"
-            className="inline-flex items-center justify-center px-6 py-3 border border-white text-white text-sm font-medium rounded-lg hover:bg-white hover:text-blue-900 dark:hover:text-[#111827] transition-colors duration-200"
+            className="inline-flex items-center justify-center px-6 py-3 border border-white text-white text-sm font-medium rounded-lg hover:bg-white hover:text-[#2D6A4F] dark:hover:text-[#111827] transition-colors duration-200"
           >
             Read the documents
           </Link>
