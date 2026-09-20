@@ -31,20 +31,20 @@ export default function Layout() {
       </main>
 
       {/* Documentation CTA Section */}
-      <section className="bg-[#2D6A4F] dark:bg-[#111827] py-16 sm:py-20 md:py-24 transition-colors duration-200">
+      <section className="bg-[#e8e4d9] dark:bg-[#111827] py-16 sm:py-20 md:py-24 transition-colors duration-200">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-white tracking-tight mb-4 sm:mb-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-900 dark:text-white tracking-tight mb-4 sm:mb-6">
             Read the full technical documentation
           </h2>
-          <p className="text-sm sm:text-base text-white/70 leading-relaxed mb-2">
+          <p className="text-sm sm:text-base text-gray-700 dark:text-white/70 leading-relaxed mb-2">
             A field guide, a rules reference, and the architecture diagrams.
           </p>
-          <p className="text-sm sm:text-base text-white/70 leading-relaxed mb-8 sm:mb-10">
+          <p className="text-sm sm:text-base text-gray-700 dark:text-white/70 leading-relaxed mb-8 sm:mb-10">
             Written for a reader who has never worked in legal metrology.
           </p>
           <Link
             to="/documents"
-            className="inline-flex items-center justify-center px-6 py-3 border border-white text-white text-sm font-medium rounded-lg hover:bg-white hover:text-[#2D6A4F] dark:hover:text-[#111827] transition-colors duration-200"
+            className="inline-flex items-center justify-center px-6 py-3 border border-[#1B4332] text-[#1B4332] dark:border-white dark:text-white text-sm font-medium rounded-lg hover:bg-[#1B4332] hover:text-white dark:hover:bg-white dark:hover:text-[#111827] transition-colors duration-200"
           >
             Read the documents
           </Link>
