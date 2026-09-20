@@ -23,7 +23,7 @@ export default function Home() {
               For Packaged Commodities, manual label checking is slow and prone to error. Our software system scans products, images, and labels to instantly verify compliance against the Legal Metrology (Packaged Commodities) Rules, 2011.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-              <a href="#how-it-works" className="bg-[#1B4332] text-white px-6 py-3.5 rounded-lg font-medium hover:bg-[#2D6A4F] transition-colors text-center text-sm sm:text-base">
+              <a href="#how-it-works" className="bg-[#e8e4d9] text-[#1B4332] px-6 py-3.5 rounded-lg font-medium hover:bg-[#d5cfbd] transition-colors text-center text-sm sm:text-base">
                 How it works
               </a>
               <a href="/documents" className="bg-white border border-gray-200 text-gray-900 px-6 py-3.5 rounded-lg font-medium hover:bg-gray-50 transition-colors text-center text-sm sm:text-base">
@@ -280,7 +280,7 @@ export default function Home() {
                     href={doc.fileUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-[#1B4332] text-white dark:bg-white dark:text-[#1B4332] dark:hover:bg-gray-100 text-sm font-medium rounded-lg hover:bg-[#2D6A4F] transition-colors shadow-xs cursor-pointer text-center"
+                    className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-[#e8e4d9] text-[#1B4332] dark:bg-white dark:text-[#1B4332] dark:hover:bg-gray-100 text-sm font-medium rounded-lg hover:bg-[#d5cfbd] transition-colors shadow-xs cursor-pointer text-center"
                   >
                     <ExternalLink className="w-4 h-4" />
                     View
