@@ -58,9 +58,14 @@ export default function Layout() {
           <div className="flex flex-col sm:flex-row justify-between gap-8">
             {/* Left — Project Info */}
             <div className="max-w-sm">
-              <h3 className="text-base font-semibold text-gray-900 dark:text-white mb-2 transition-colors">
-                Drithya
-              </h3>
+              <div className="flex items-center gap-2 mb-3">
+                <div className="w-6 h-6 rounded-md bg-gradient-to-br from-[#1B4332] to-emerald-500 flex items-center justify-center shadow-sm">
+                  <span className="text-white font-bold text-sm leading-none">D</span>
+                </div>
+                <h3 className="text-lg font-extrabold tracking-tight text-gray-900 dark:text-white transition-colors">
+                  Drithya<span className="text-emerald-600 dark:text-emerald-500">.</span>
+                </h3>
+              </div>
               <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed transition-colors">
                 An automated compliance verification system for Packaged Commodities under LMPC 2011.
               </p>

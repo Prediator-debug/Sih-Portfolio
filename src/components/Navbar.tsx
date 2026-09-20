@@ -45,9 +45,14 @@ export default function Navbar() {
             <Link 
               to="/" 
               onClick={() => setIsOpen(false)}
-              className="text-2xl sm:text-3xl font-normal tracking-tight text-gray-900 dark:text-white transition-colors"
+              className="group flex items-center gap-2"
             >
-              Drithya
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#1B4332] to-emerald-500 flex items-center justify-center shadow-sm group-hover:shadow-md transition-all">
+                <span className="text-white font-bold text-lg leading-none">D</span>
+              </div>
+              <span className="text-2xl sm:text-3xl font-extrabold tracking-tighter text-gray-900 dark:text-white transition-colors">
+                Drithya<span className="text-emerald-600 dark:text-emerald-500">.</span>
+              </span>
             </Link>
           </div>
 
