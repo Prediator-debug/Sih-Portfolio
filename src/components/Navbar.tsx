@@ -71,7 +71,7 @@ export default function Navbar() {
             <ThemeToggle />
             <button
               onClick={() => scrollToSection('documents')}
-              className="bg-[#e8e4d9] text-[#1B4332] dark:bg-white dark:text-[#1B4332] dark:hover:bg-gray-100 px-5 py-2.5 rounded-lg text-sm font-medium hover:bg-[#d5cfbd] transition-colors shadow-xs cursor-pointer"
+              className="bg-[#1B4332] text-white dark:bg-white dark:text-[#1B4332] dark:hover:bg-gray-100 px-5 py-2.5 rounded-lg text-sm font-medium hover:bg-[#2D6A4F] transition-colors shadow-xs cursor-pointer"
             >
               Read the rules
             </button>
@@ -115,7 +115,7 @@ export default function Navbar() {
           <div className="pt-3 border-t border-gray-200/80 dark:border-gray-800">
             <button
               onClick={() => scrollToSection('documents')}
-              className="w-full bg-[#e8e4d9] text-[#1B4332] dark:bg-white dark:text-[#1B4332] dark:hover:bg-gray-100 px-5 py-3 rounded-lg text-base font-medium hover:bg-[#d5cfbd] transition-colors shadow-xs text-center cursor-pointer"
+              className="w-full bg-[#1B4332] text-white dark:bg-white dark:text-[#1B4332] dark:hover:bg-gray-100 px-5 py-3 rounded-lg text-base font-medium hover:bg-[#2D6A4F] transition-colors shadow-xs text-center cursor-pointer"
             >
               Read the rules
             </button>
